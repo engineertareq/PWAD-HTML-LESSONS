@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form avtion="">
+        Name: <br>
+        <input type="text"  name="Name" placeholder="Enter Your Name" style="margin-bottom: 10px;" required><br>
+        <!-- To make a field require use require tag -->
+        Email: <br>
+        <input type="email" name="Email" placeholder="Enter Your Email" style="margin-bottom: 10px;"><br>
+        District: <br>
+        <select name="District" required>
+            <option value="Selection" disabled selected>Select District</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Sylhet">Sylhet</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Mymensingh">Mymensingh</option>
+            <option value="Rajshahi">Rajshahi</option>
+        </select>
+        <br>
+        Phone: <br>
+        <input type="number" name="Phone" placeholder="Enter Your Phone Number" style="margin-bottom: 10px;" required><br>
+        <input type="submit" value="submit" style="background-color: cyan; margin-top: 10px;">
+    </form>
+</body>
+</html>
