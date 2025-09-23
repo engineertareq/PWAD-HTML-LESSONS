@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Personal Details Form</h3>
+    <form action="">
+        <fieldset>
+            <legend>Registration</legend>
+            <input type="text" name="name" placeholder="Enter your name" required><br>
+            <input type="number" name="age" placeholder="Enter your age"><br>
+            <input type="tel" name="phone" placeholder="Enter your phone number"><br>
+            <input type="date" name="dob" placeholder="Enter your date of birth"><br>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female<br>
+            <select name="district" id="">
+                <option value="">Select One</option>
+                <optgroup label="Dhaka Division">
+                    <option value="dhaka">Dhaka</option>
+                    <option value="gazipur">Gazipur</option>
+                    <option value="narayanganj">Narayanganj</option>
+                </optgroup>
+                <optgroup label="Sylhet">
+                    <option value="">Habiganj</option>
+                    <option value="">Moulovibazar</option>
+                </optgroup>
+                <optgroup label="Chattragram">
+                    <option value="">Comilla</option>
+                    <option value="">Feni</option>
+                </optgroup>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>Login</legend>
+            <input type="email" name="email" placeholder="Enter your email"><br>
+            <input type="password" name="password" placeholder="Enter your password"><br>
+            <input type="password" name="cpassword" placeholder="Confirm your password"><br>
+            <input type="submit" value="Submit">
+            <button type="reset">reset</button>
+        </fieldset>
+        <fieldset>
+            <legend>On This Line We Used HTML Legend Tag</legend>
+            <p>For Each Diffrent Secriom we use HTML fieldset tag</p>
+        </fieldset>
+    </form>
+</body>
+</html>
