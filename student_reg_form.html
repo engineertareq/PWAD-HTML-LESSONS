@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        margin: auto;
+        border-radius: 1px;
+        border-collapse: collapse;
+        background-color: aliceblue;
+        width: 800px;
+        height: auto;
+        padding-left: 20px;
+
+    }
+    h3{
+        margin: auto;
+        border-radius: 1px;
+        border-collapse: collapse;
+        background-color: aliceblue;
+        width: 800px;
+        height: auto;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .myform{
+        vertical-align: top;
+    }
+</style>
+<body>
+    <h3>Student Registration Form</h3>
+ <div class="myform">
+   <form action="">
+        Roll No:
+        <input type="number" name="roll" placeholder="Enter Roll"><br><br>
+        Student Name:
+        <input type="text" name="fname" placeholder="Enter First Name">-
+        <input type="text" name="lname" placeholder="Enter Last Name"><br><br>
+        Father name: 
+        <input type="text" name="fathername" placeholder="Enter Your Father Name"><br><br>
+        Date of Birth:
+        <input type="number" name="day" placeholder="Day">-
+        <input type="number" name="month" placeholder="Month">-
+        <input type="number" name="day" placeholder="Year">-(DD-MM-YYYY)<br><br>
+        Mobile No:
+                <input type="number" name="countrycode" placeholder="+91" value="+91">
+        -
+        <input type="number" name="phone" placeholder="Enter Your Number"><br><br>
+        Email ID :
+        <input type="email" name="email" placeholder="Enter Email"><br><br>
+        Password:
+        <input type="password" name="password" placeholder="Enter password"><br><br>
+        Gender:
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="female">Femalee<br><br>
+        Depertment:
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="">
+                CSE
+            </label>
+            <label>
+                <input type="checkbox" value="">
+                IT
+            </label>
+            <label>
+                <input type="checkbox" value="">
+                ECE
+            </label>
+            <label>
+                <input type="checkbox" value="">
+                Civil
+            </label>
+            <label>
+                <input type="checkbox" value="">
+                Mech
+            </label>
+        </div>
+        <br>
+        Course:
+         <select name="" id="">
+            <option value="" selected disabled>--------Select Cureent Course's------</option>
+            <option value="">CSE</option>
+            <option value="">BBA</option>
+            <option value="">MSC</option>
+            <option value="">BBS</option>
+         </select><br><br>
+        Student Photo:
+        <input type="file" value="" name="image"><br><br>
+        City:
+        <input type="text" name="city" placeholder="Enter Your City Name"><br><br>
+        Address:
+        <textarea name="" id=""></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+ </div>
+</body>
+</html>
