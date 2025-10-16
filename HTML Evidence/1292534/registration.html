@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .container {
+            max-width: 500px;
+            background-color: #fff;
+            padding: 30px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-actions {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            background-color: #1c71cc;
+            color: white;
+            cursor: pointer;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+        ID: <br>
+        <input type="text" value="" placeholder="Enter Your ID Here"><br>
+        Name: <br>
+        <textarea name="" id="" placeholder="Enter Your Name Here"></textarea><br>
+        Select Round: <br>
+        <select name="" id="">
+            <option value="">Round 65</option>
+            <option value="">Round 67</option>
+            <option value="">Round 68</option>
+            <option value="">Round 69</option>
+            <option value="">Round 70</option>
+        </select><br>
+        Gender: <br>
+        <input type="radio" value="male" name="gender" placeholder="Enter Your ID Here">Male <br>
+        <input type="radio" value="female" name="gender" placeholder="Enter Your ID Here">Female <br>
+
+        Education: <br>
+        <input type="checkbox" value="" placeholder="Enter Your ID Here">SSC
+        <input type="checkbox" value="" placeholder="Enter Your ID Here">HSC
+        <input type="checkbox" value="" placeholder="Enter Your ID Here">Diploma
+        <input type="checkbox" value="" placeholder="Enter Your ID Here">BSC <br>
+
+        <input type="submit" value="Submit" placeholder="Submit">
+        <input type="reset" value="Reset">        
+    </form>
+    </div>
+</body>
+</html>
